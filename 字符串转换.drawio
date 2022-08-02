@@ -1,1 +1,66 @@
-<mxfile host="app.diagrams.net" modified="2022-08-02T03:51:29.921Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="FEBqXBirSyF_oOqpgDh3" version="18.0.3" type="github"><diagram id="Y_zqLpwK-s-20bb0sWx3" name="第 1 页">7VfLbtswEPyaPaawnpaOejltgAAtDLTpqWAlxmIriwZFx3a+vlyKliVLRh5I0RwK5MAdkktydnasgJOs99eCbMpbXtAK7FmxBycF27Zc2wb8mxWHFpl7bgusBCvMohOwZI/UgDODbllBm8FCyXkl2WYI5ryuaS4HGBGC74bL7nk1PHVDVnQELHNSjdFvrJBliwb2/IR/pGxVHk+2/LCdWZPjYvOSpiQF3/UgJwMnEZzLdrTeJ7RC8o68tPsWF2a7iwlay+dskLKubz79isLrqy8/msUdW4rrK5PlgVRb82DIPAgyCBc4iFII55DNIUog8iFzIQ4gNiVt5OHIkuDbuqB40AyceFcySZcbkuPsTulCYaVcVyqy1NAcSYWk+4tvsTqGlLQoX1MpDmpJpytDqlGVFZh4d6qRdSS+7NXHNxgxslh1qU/MqYEh7wVE2pNExhGEnh5YENhIZBhB4OYlEZD5OBfPEI1jhb47Vuf/mlRnTOo5R7QuImxzFeUVaRqWKy4aSYQcwz22htTSPZN3OP7gmeh7bybd94ODCdqb0GJkH2dsq9vyrcjp002oLr2i8imNjavXK483UZ0jJmhFJHsYXneqZOaEz5yph3TicMKhOFzrrOrtM82uvg+dJXLPVOacy6flYZRIK6h79utF5U50qg9BAkGIrRgo15vr5nQgSLXlKRNMdJc62Khtu6I/mm7WSAKhr41yBoGF29VAgdj6KrNarHxzAWGMg8jC4zLd/IF/wQxwQ4q+i37cZm/dN3rh5UKNBPrgDKLJ675fp3eO3wvvxZO8V3rSk+Zj9a2nM6Jp81HkicNdP+jtwvC0TUd/wbTsZ5qW+9+03sC0/JHqbr7e6pZe6Lb30GNCfyRF1XhyKD5SsVWNylQVp0IB2J5MffBGZmLNigK3x4I27JH81KlQPBt8nH6uF4OXYq6t5E37yW7pn13Bf9OEV1zlTWteY5Z7VlVn0BvYQucDl23Bn5CV/XJXUOHpG70t5+k/HSf7Aw==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-08-02T08:31:09.795Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="vOw0DVZUafcU2VgxT_Jb" version="18.0.3" type="github">
+  <diagram id="Y_zqLpwK-s-20bb0sWx3" name="第 1 页">
+    <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ttnnJIjA9G-Q_sFXiSrG-1" value="原字符串" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="140" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ttnnJIjA9G-Q_sFXiSrG-2" value="底层的byte数组" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="140" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ttnnJIjA9G-Q_sFXiSrG-3" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="ttnnJIjA9G-Q_sFXiSrG-1" target="ttnnJIjA9G-Q_sFXiSrG-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="410" as="sourcePoint" />
+            <mxPoint x="440" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Clm08EFhY0WN1bNjYeMY-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ttnnJIjA9G-Q_sFXiSrG-4" target="Clm08EFhY0WN1bNjYeMY-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ttnnJIjA9G-Q_sFXiSrG-4" value="按照操作系统的编码格式进行将byte数组使用操作系统的默认编码将其转化为char即String的底层实际存储" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="347" y="52.5" width="150" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="ttnnJIjA9G-Q_sFXiSrG-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ttnnJIjA9G-Q_sFXiSrG-2" target="ttnnJIjA9G-Q_sFXiSrG-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="410" as="sourcePoint" />
+            <mxPoint x="440" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ttnnJIjA9G-Q_sFXiSrG-6" value="JVM读取" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="270" y="70" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Clm08EFhY0WN1bNjYeMY-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Clm08EFhY0WN1bNjYeMY-1" target="Clm08EFhY0WN1bNjYeMY-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Clm08EFhY0WN1bNjYeMY-1" value="jvm中的字符串" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="362" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Clm08EFhY0WN1bNjYeMY-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Clm08EFhY0WN1bNjYeMY-3" target="Clm08EFhY0WN1bNjYeMY-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="670" y="290" />
+              <mxPoint x="422" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Clm08EFhY0WN1bNjYeMY-3" value="jvm操作中的字符串，进行实际操作的时候" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Clm08EFhY0WN1bNjYeMY-5" value="编码类型" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="180" y="140" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Clm08EFhY0WN1bNjYeMY-6" value="操作系统默认编码类型" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="380" y="160" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Clm08EFhY0WN1bNjYeMY-8" value="Unicode编码" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="497" y="220" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Clm08EFhY0WN1bNjYeMY-10" value="Unicode解码" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="497" y="290" width="80" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
