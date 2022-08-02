@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2022-08-02T08:31:09.795Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="vOw0DVZUafcU2VgxT_Jb" version="18.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-02T08:43:42.215Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="2bkn_eQKxrflSpjZen1q" version="18.0.3" type="github">
   <diagram id="Y_zqLpwK-s-20bb0sWx3" name="第 1 页">
     <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Clm08EFhY0WN1bNjYeMY-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ttnnJIjA9G-Q_sFXiSrG-1" target="Clm08EFhY0WN1bNjYeMY-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ttnnJIjA9G-Q_sFXiSrG-1" value="原字符串" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="140" y="180" width="120" height="60" as="geometry" />
         </mxCell>
@@ -59,6 +62,21 @@
         </mxCell>
         <mxCell id="Clm08EFhY0WN1bNjYeMY-10" value="Unicode解码" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="497" y="290" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Clm08EFhY0WN1bNjYeMY-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Clm08EFhY0WN1bNjYeMY-12" target="Clm08EFhY0WN1bNjYeMY-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Clm08EFhY0WN1bNjYeMY-12" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;原字符串的byte数组&lt;/pre&gt;&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;string&lt;/span&gt;.getBytes(&lt;span style=&quot;color:#067d17;&quot;&gt;&quot;UTF-8&quot;&lt;/span&gt;)&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="380" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Clm08EFhY0WN1bNjYeMY-14" value="原字符串在操作系统默认&lt;br&gt;编码类型下的byte数组" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="285" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Clm08EFhY0WN1bNjYeMY-15" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;String sttIso &lt;/span&gt;= &lt;span style=&quot;color:#0033b3;&quot;&gt;new &lt;/span&gt;String(&lt;span style=&quot;color:#000000;&quot;&gt;stt&lt;/span&gt;.getBytes(&lt;span style=&quot;color:#067d17;&quot;&gt;&quot;UTF-8&quot;&lt;/span&gt;), &lt;span style=&quot;color:#067d17;&quot;&gt;&quot;UTF-16LE&quot;&lt;/span&gt;);&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="560" width="490" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Clm08EFhY0WN1bNjYeMY-17" value="按照原字符串的byte数组按照目标编码类型，获取目标字符串的char类型" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="150" y="480" width="400" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
