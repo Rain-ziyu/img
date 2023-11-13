@@ -1,52 +1,19 @@
-<mxfile host="app.diagrams.net" modified="2023-11-09T03:17:01.863Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/119.0" etag="AHU0z7VjRLBE57QjMwTZ" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-13T01:17:34.577Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/119.0" etag="1PBvnxtDoYhV-cMQX5Lx" version="22.1.0" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
-    <mxGraphModel dx="2483" dy="797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2774" dy="822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="sYx6RyAg-K0fDL2KnnGP-60" value="区分消息类型：&lt;br&gt;定时消息、&lt;br&gt;实时发送" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;" parent="1" edge="1">
-          <mxGeometry x="-0.0667" y="10" width="80" relative="1" as="geometry">
-            <mxPoint x="320" y="310" as="sourcePoint" />
-            <mxPoint x="320" y="340" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="380" y="310" />
-              <mxPoint x="380" y="340" />
-              <mxPoint x="320" y="340" />
-            </Array>
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="sYx6RyAg-K0fDL2KnnGP-61" value="provider" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
           <mxGeometry x="250" y="90" width="111" height="580" as="geometry" />
         </mxCell>
         <mxCell id="sYx6RyAg-K0fDL2KnnGP-62" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="sYx6RyAg-K0fDL2KnnGP-61" vertex="1">
           <mxGeometry x="51" y="100" width="10" height="350" as="geometry" />
         </mxCell>
-        <mxCell id="sYx6RyAg-K0fDL2KnnGP-63" value="选择发送渠道" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;" parent="sYx6RyAg-K0fDL2KnnGP-61" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="70" y="170" as="sourcePoint" />
-            <mxPoint x="70" y="191" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="130" y="170" />
-              <mxPoint x="130" y="191" />
-              <mxPoint x="72" y="191" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="sYx6RyAg-K0fDL2KnnGP-64" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=1;entryY=0.096;entryDx=0;entryDy=0;entryPerimeter=0;" parent="sYx6RyAg-K0fDL2KnnGP-61" target="sYx6RyAg-K0fDL2KnnGP-65" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="60" y="125" as="sourcePoint" />
-            <mxPoint x="60" y="154" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="130" y="125" />
-              <mxPoint x="130" y="155" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="sYx6RyAg-K0fDL2KnnGP-65" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="sYx6RyAg-K0fDL2KnnGP-61" vertex="1">
           <mxGeometry x="60" y="140" width="10" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="sYx6RyAg-K0fDL2KnnGP-66" value="转换消息模版" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;" parent="sYx6RyAg-K0fDL2KnnGP-61" edge="1">
+        <mxCell id="sYx6RyAg-K0fDL2KnnGP-66" value="转换消息" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;" parent="sYx6RyAg-K0fDL2KnnGP-61" edge="1">
           <mxGeometry x="-0.4904" y="-10" relative="1" as="geometry">
             <mxPoint x="71" y="280" as="sourcePoint" />
             <mxPoint x="61" y="307" as="targetPoint" />
@@ -57,11 +24,21 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="sYx6RyAg-K0fDL2KnnGP-60" value="区分消息类型：&lt;br&gt;定时消息、&lt;br&gt;实时发送" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;exitX=1.2;exitY=0.263;exitDx=0;exitDy=0;exitPerimeter=0;" parent="sYx6RyAg-K0fDL2KnnGP-61" edge="1" source="sYx6RyAg-K0fDL2KnnGP-65">
+          <mxGeometry x="-0.0667" y="10" width="80" relative="1" as="geometry">
+            <mxPoint x="70" y="220" as="sourcePoint" />
+            <mxPoint x="70" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="70" y="182" />
+              <mxPoint x="70" y="180" />
+              <mxPoint x="130" y="180" />
+              <mxPoint x="130" y="230" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="sYx6RyAg-K0fDL2KnnGP-67" value="MQ消息监听" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
           <mxGeometry x="410" y="90" width="100" height="580" as="geometry" />
-        </mxCell>
-        <mxCell id="sYx6RyAg-K0fDL2KnnGP-68" value="查询对应业务配置" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="sYx6RyAg-K0fDL2KnnGP-67" vertex="1">
-          <mxGeometry x="-80" y="118" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sYx6RyAg-K0fDL2KnnGP-69" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;" parent="sYx6RyAg-K0fDL2KnnGP-67" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
