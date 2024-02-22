@@ -1,9 +1,163 @@
-<mxfile host="app.diagrams.net" modified="2024-02-22T08:22:28.630Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:122.0) Gecko/20100101 Firefox/122.0" version="23.1.5" etag="MWtxHG71ensM2ciTTVhK" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-22T08:45:55.289Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:122.0) Gecko/20100101 Firefox/122.0" etag="5JFjy5Fi12isFekZsxBp" version="23.1.5" type="github">
   <diagram name="第 1 页" id="bp41AYV3ZoLxS_UVhe02">
-    <mxGraphModel>
+    <mxGraphModel dx="1371" dy="1890" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="bbPejFsdkMs-4m_aS3yO-2" value="老的CDN域名" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="70" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bbPejFsdkMs-4m_aS3yO-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bbPejFsdkMs-4m_aS3yO-3" target="bbPejFsdkMs-4m_aS3yO-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bbPejFsdkMs-4m_aS3yO-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="260" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="bbPejFsdkMs-4m_aS3yO-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bbPejFsdkMs-4m_aS3yO-2" target="bbPejFsdkMs-4m_aS3yO-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bbPejFsdkMs-4m_aS3yO-4" value="老OSS服务" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="260" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bbPejFsdkMs-4m_aS3yO-5" value="静态数据文件夹" style="shape=tape;whiteSpace=wrap;html=1;strokeWidth=2;size=0.19" vertex="1" parent="1">
+          <mxGeometry x="130" y="300" width="100" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="bbPejFsdkMs-4m_aS3yO-7" value="指向" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="180" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bbPejFsdkMs-4m_aS3yO-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="260" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="bbPejFsdkMs-4m_aS3yO-10" value="增加新CDN域名" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="305" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bbPejFsdkMs-4m_aS3yO-11" value="新OSS服务" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="260" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bbPejFsdkMs-4m_aS3yO-13" value="静态数据文件夹" style="shape=tape;whiteSpace=wrap;html=1;strokeWidth=2;size=0.19" vertex="1" parent="1">
+          <mxGeometry x="130" y="300" width="100" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="bbPejFsdkMs-4m_aS3yO-14" value="迁移后的部分静态数据文件夹" style="shape=tape;whiteSpace=wrap;html=1;strokeWidth=2;size=0.19" vertex="1" parent="1">
+          <mxGeometry x="440" y="290" width="100" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="bbPejFsdkMs-4m_aS3yO-15" value="新的CDN域名" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="70" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bbPejFsdkMs-4m_aS3yO-16" value="指向" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="180" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bbPejFsdkMs-4m_aS3yO-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.3;entryY=0.123;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bbPejFsdkMs-4m_aS3yO-15" target="bbPejFsdkMs-4m_aS3yO-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bbPejFsdkMs-4m_aS3yO-18" value="已迁移的前端项目" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="380" y="-60" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="bbPejFsdkMs-4m_aS3yO-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bbPejFsdkMs-4m_aS3yO-19" target="bbPejFsdkMs-4m_aS3yO-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bbPejFsdkMs-4m_aS3yO-19" value="未迁移的前端项目" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="180" y="-60" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="bbPejFsdkMs-4m_aS3yO-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.525;entryY=0.088;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bbPejFsdkMs-4m_aS3yO-18" target="bbPejFsdkMs-4m_aS3yO-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bbPejFsdkMs-4m_aS3yO-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.933;entryY=0.513;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bbPejFsdkMs-4m_aS3yO-18" target="bbPejFsdkMs-4m_aS3yO-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="70" />
+              <mxPoint x="162" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bbPejFsdkMs-4m_aS3yO-23" value="迁移不完善时，会访问到旧的CDN" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="60" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bbPejFsdkMs-4m_aS3yO-25" value="&lt;div&gt;文件存在时可正常访问，&lt;/div&gt;&lt;div&gt;不存在时，无法找到文件&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="200" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bbPejFsdkMs-4m_aS3yO-47" value="老的CDN域名" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="70" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bbPejFsdkMs-4m_aS3yO-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bbPejFsdkMs-4m_aS3yO-49" target="bbPejFsdkMs-4m_aS3yO-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bbPejFsdkMs-4m_aS3yO-49" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="260" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="bbPejFsdkMs-4m_aS3yO-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bbPejFsdkMs-4m_aS3yO-69" target="bbPejFsdkMs-4m_aS3yO-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bbPejFsdkMs-4m_aS3yO-51" value="老OSS服务" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="260" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bbPejFsdkMs-4m_aS3yO-52" value="静态数据文件夹" style="shape=tape;whiteSpace=wrap;html=1;strokeWidth=2;size=0.19" vertex="1" parent="1">
+          <mxGeometry x="700" y="300" width="100" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="bbPejFsdkMs-4m_aS3yO-53" value="在未迁移时指向老的OSS" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bbPejFsdkMs-4m_aS3yO-54" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="260" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="bbPejFsdkMs-4m_aS3yO-55" value="直接更换CDN" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="305" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bbPejFsdkMs-4m_aS3yO-56" value="新OSS服务" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="970" y="260" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bbPejFsdkMs-4m_aS3yO-57" value="静态数据文件夹" style="shape=tape;whiteSpace=wrap;html=1;strokeWidth=2;size=0.19" vertex="1" parent="1">
+          <mxGeometry x="700" y="300" width="100" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="bbPejFsdkMs-4m_aS3yO-58" value="迁移后的部分静态数据文件夹" style="shape=tape;whiteSpace=wrap;html=1;strokeWidth=2;size=0.19" vertex="1" parent="1">
+          <mxGeometry x="1010" y="290" width="100" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="bbPejFsdkMs-4m_aS3yO-60" value="迁移后CDN指向" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="840" y="80" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bbPejFsdkMs-4m_aS3yO-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.3;entryY=0.123;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.942;exitY=0.488;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="bbPejFsdkMs-4m_aS3yO-47" target="bbPejFsdkMs-4m_aS3yO-58">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1040" y="150" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bbPejFsdkMs-4m_aS3yO-62" value="已迁移的前端项目" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="820" y="-80" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="bbPejFsdkMs-4m_aS3yO-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bbPejFsdkMs-4m_aS3yO-64" target="bbPejFsdkMs-4m_aS3yO-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bbPejFsdkMs-4m_aS3yO-64" value="未迁移的前端项目" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="640" y="-80" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="bbPejFsdkMs-4m_aS3yO-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.7;entryY=0.188;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bbPejFsdkMs-4m_aS3yO-62" target="bbPejFsdkMs-4m_aS3yO-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1043" y="77.03999999999996" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="870" y="60" />
+              <mxPoint x="704" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bbPejFsdkMs-4m_aS3yO-68" value="&lt;div&gt;文件存在时可正常访问，&lt;/div&gt;&lt;div&gt;不存在时，无法找到文件&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="960" y="130" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bbPejFsdkMs-4m_aS3yO-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bbPejFsdkMs-4m_aS3yO-47" target="bbPejFsdkMs-4m_aS3yO-69">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="150" as="sourcePoint" />
+            <mxPoint x="750" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bbPejFsdkMs-4m_aS3yO-69" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.or;" vertex="1" parent="1">
+          <mxGeometry x="710" y="210" width="25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bbPejFsdkMs-4m_aS3yO-72" value="迁移后无法访问到老的OSS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="735" y="220" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bbPejFsdkMs-4m_aS3yO-74" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="560" as="sourcePoint" />
+            <mxPoint x="590" y="-150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
