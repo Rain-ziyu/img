@@ -1,9 +1,69 @@
-<mxfile host="app.diagrams.net" modified="2024-04-01T06:37:49.224Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" version="24.0.6" etag="0CH065VO5h63MYMWqrzL" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-01T06:50:39.430Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="d8LfPshAn7dm9nXcnbBE" version="24.0.6" type="github">
   <diagram name="第 1 页" id="2l0wkV5MG7BHutLUghD6">
-    <mxGraphModel>
+    <mxGraphModel dx="1189" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="s8JxzFlPwDfdYDSZ-Yab-1" value="租户A在应用xay_new产生的数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s8JxzFlPwDfdYDSZ-Yab-2" value="租户B在应用ahj_site下，需要租户A在应用xay_new产生的数据进行数据支撑" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s8JxzFlPwDfdYDSZ-Yab-6" value="数据授权服务" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="330" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="s8JxzFlPwDfdYDSZ-Yab-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="s8JxzFlPwDfdYDSZ-Yab-2" target="s8JxzFlPwDfdYDSZ-Yab-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="420" as="sourcePoint" />
+            <mxPoint x="440" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s8JxzFlPwDfdYDSZ-Yab-8" value="发起ACL" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="220" y="168" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s8JxzFlPwDfdYDSZ-Yab-9" value="&lt;div&gt;[request_definition]&lt;/div&gt;&lt;div&gt;r = sub, obj, act&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;[policy_definition]&lt;/div&gt;&lt;div&gt;p = sub, obj, act&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;[policy_effect]&lt;/div&gt;&lt;div&gt;e = some(where (p.eft == allow))&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;[matchers]&lt;/div&gt;&lt;div&gt;m = r.sub == p.sub &amp;amp;&amp;amp; r.obj == p.obj &amp;amp;&amp;amp; r.act == p.act&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="620" y="285" width="310" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="s8JxzFlPwDfdYDSZ-Yab-10" value="&lt;div&gt;[request_definition]&lt;/div&gt;&lt;div&gt;r = appIdB, org,appIdA&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="220" y="190" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s8JxzFlPwDfdYDSZ-Yab-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="s8JxzFlPwDfdYDSZ-Yab-6" target="s8JxzFlPwDfdYDSZ-Yab-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="420" as="sourcePoint" />
+            <mxPoint x="440" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s8JxzFlPwDfdYDSZ-Yab-12" value="按照右边的策略进行匹配" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="414" y="340" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s8JxzFlPwDfdYDSZ-Yab-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.7;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="s8JxzFlPwDfdYDSZ-Yab-9" target="s8JxzFlPwDfdYDSZ-Yab-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="420" as="sourcePoint" />
+            <mxPoint x="440" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s8JxzFlPwDfdYDSZ-Yab-14" value="匹配成功返回允许" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="190" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s8JxzFlPwDfdYDSZ-Yab-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="s8JxzFlPwDfdYDSZ-Yab-2" target="s8JxzFlPwDfdYDSZ-Yab-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="420" as="sourcePoint" />
+            <mxPoint x="440" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s8JxzFlPwDfdYDSZ-Yab-16" value="进行数据查询" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="430" y="90" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s8JxzFlPwDfdYDSZ-Yab-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.716;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="s8JxzFlPwDfdYDSZ-Yab-9" target="s8JxzFlPwDfdYDSZ-Yab-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="420" as="sourcePoint" />
+            <mxPoint x="866.8191787037736" y="112.12054753081748" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s8JxzFlPwDfdYDSZ-Yab-20" value="匹配失败返回数据未授权" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="800" y="30" width="80" height="100" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
