@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-21T09:27:22.286Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="dCrAMjI3z4y4ekfCiKjn" version="24.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-24T02:46:51.593Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="5Q0o5D13Y0aI9M1cHiA7" version="24.6.0" type="github">
   <diagram name="第 1 页" id="5OdDK6xcrOqgrViuFWOF">
     <mxGraphModel dx="1153" dy="634" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -166,7 +166,7 @@
         <mxCell id="god6YmjAWi2dFbmYGvPh-52" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="580" y="290" width="210" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="god6YmjAWi2dFbmYGvPh-53" value="数据中台" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="god6YmjAWi2dFbmYGvPh-53" value="数智中心" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="650" y="290" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="god6YmjAWi2dFbmYGvPh-54" value="数据采集" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
