@@ -49,20 +49,17 @@
         <mxCell id="kChg_lzE1cLpMvGRdCMI-17" value="IoT中台&lt;div&gt;（platform-iot）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="kChg_lzE1cLpMvGRdCMI-18">
           <mxGeometry x="55.660377358490564" y="8.75" width="523.2075471698114" height="52.5" as="geometry" />
         </mxCell>
-        <mxCell id="kChg_lzE1cLpMvGRdCMI-19" value="持久层" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="90" y="350" width="60" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="kChg_lzE1cLpMvGRdCMI-20" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="350" width="590" height="60" as="geometry" />
+          <mxGeometry x="180" y="350" width="590" height="50" as="geometry" />
         </mxCell>
         <mxCell id="kChg_lzE1cLpMvGRdCMI-21" value="Mysql" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="355" width="120" height="50" as="geometry" />
+          <mxGeometry x="250.14" y="355" width="100" height="35" as="geometry" />
         </mxCell>
         <mxCell id="kChg_lzE1cLpMvGRdCMI-22" value="InfluxDB" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="355" width="120" height="50" as="geometry" />
+          <mxGeometry x="596.87" y="355" width="100" height="35" as="geometry" />
         </mxCell>
         <mxCell id="kChg_lzE1cLpMvGRdCMI-29" value="Redis" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="413.5" y="355" width="120" height="50" as="geometry" />
+          <mxGeometry x="423.68" y="355" width="100" height="35" as="geometry" />
         </mxCell>
         <mxCell id="kChg_lzE1cLpMvGRdCMI-25" value="中&lt;div&gt;间&lt;/div&gt;&lt;div&gt;件&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="90" y="260" width="60" height="80" as="geometry" />
@@ -78,6 +75,9 @@
         </mxCell>
         <mxCell id="kChg_lzE1cLpMvGRdCMI-28" value="xxl-job" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="596.8654545454546" y="280" width="128.72727272727272" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kChg_lzE1cLpMvGRdCMI-31" value="持久层" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="350" width="60" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
