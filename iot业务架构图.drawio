@@ -1,9 +1,150 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7">
   <diagram name="第 1 页" id="CHQMg75Ctvg36Bg_mEWG">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ywJJRI5t-XReXgleK-C4-1" value="IoT物联网中台" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="19" y="210" width="790" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ywJJRI5t-XReXgleK-C4-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ywJJRI5t-XReXgleK-C4-2" target="ywJJRI5t-XReXgleK-C4-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ywJJRI5t-XReXgleK-C4-2" value="鑫安云2.0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ywJJRI5t-XReXgleK-C4-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ywJJRI5t-XReXgleK-C4-3" target="ywJJRI5t-XReXgleK-C4-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ywJJRI5t-XReXgleK-C4-3" value="鑫智安" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ywJJRI5t-XReXgleK-C4-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ywJJRI5t-XReXgleK-C4-4" target="ywJJRI5t-XReXgleK-C4-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ywJJRI5t-XReXgleK-C4-4" value="其他业务系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ywJJRI5t-XReXgleK-C4-43" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="20" y="270" width="800" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="ywJJRI5t-XReXgleK-C4-38" value="" style="group" vertex="1" connectable="0" parent="ywJJRI5t-XReXgleK-C4-43">
+          <mxGeometry width="120" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="ywJJRI5t-XReXgleK-C4-8" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="ywJJRI5t-XReXgleK-C4-38">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="59.5" y="70" as="sourcePoint" />
+            <mxPoint x="59.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ywJJRI5t-XReXgleK-C4-9" value="视频设备注册" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ywJJRI5t-XReXgleK-C4-38">
+          <mxGeometry y="70" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ywJJRI5t-XReXgleK-C4-10" value="GB28181接入" style="rounded=0;whiteSpace=wrap;html=1;textDirection=vertical-lr;" vertex="1" parent="ywJJRI5t-XReXgleK-C4-38">
+          <mxGeometry x="30" y="100" width="30" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ywJJRI5t-XReXgleK-C4-11" value="SIP指令交互" style="rounded=0;whiteSpace=wrap;html=1;textDirection=vertical-lr;" vertex="1" parent="ywJJRI5t-XReXgleK-C4-38">
+          <mxGeometry x="60" y="100" width="30" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ywJJRI5t-XReXgleK-C4-12" value="新增设备" style="rounded=0;whiteSpace=wrap;html=1;textDirection=vertical-lr;" vertex="1" parent="ywJJRI5t-XReXgleK-C4-38">
+          <mxGeometry y="100" width="30" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ywJJRI5t-XReXgleK-C4-13" value="租户等信息关联" style="rounded=0;whiteSpace=wrap;html=1;textDirection=vertical-lr;" vertex="1" parent="ywJJRI5t-XReXgleK-C4-38">
+          <mxGeometry x="90" y="100" width="30" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ywJJRI5t-XReXgleK-C4-39" value="" style="group" vertex="1" connectable="0" parent="ywJJRI5t-XReXgleK-C4-43">
+          <mxGeometry x="170" width="120" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="ywJJRI5t-XReXgleK-C4-14" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="ywJJRI5t-XReXgleK-C4-39">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="59" y="70" as="sourcePoint" />
+            <mxPoint x="59" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ywJJRI5t-XReXgleK-C4-15" value="设备告警" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ywJJRI5t-XReXgleK-C4-39">
+          <mxGeometry y="70" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ywJJRI5t-XReXgleK-C4-16" value="新增告警规则" style="rounded=0;whiteSpace=wrap;html=1;textDirection=vertical-lr;" vertex="1" parent="ywJJRI5t-XReXgleK-C4-39">
+          <mxGeometry x="30" y="100" width="30" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ywJJRI5t-XReXgleK-C4-17" value="告警触发消息通知" style="rounded=0;whiteSpace=wrap;html=1;textDirection=vertical-lr;" vertex="1" parent="ywJJRI5t-XReXgleK-C4-39">
+          <mxGeometry x="90" y="100" width="30" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ywJJRI5t-XReXgleK-C4-18" value="编辑告警级别" style="rounded=0;whiteSpace=wrap;html=1;textDirection=vertical-lr;" vertex="1" parent="ywJJRI5t-XReXgleK-C4-39">
+          <mxGeometry y="100" width="30" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ywJJRI5t-XReXgleK-C4-31" value="AI预警分析" style="rounded=0;whiteSpace=wrap;html=1;textDirection=vertical-lr;" vertex="1" parent="ywJJRI5t-XReXgleK-C4-39">
+          <mxGeometry x="60" y="100" width="30" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ywJJRI5t-XReXgleK-C4-40" value="" style="group" vertex="1" connectable="0" parent="ywJJRI5t-XReXgleK-C4-43">
+          <mxGeometry x="340" width="120" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="ywJJRI5t-XReXgleK-C4-20" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="ywJJRI5t-XReXgleK-C4-40">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="60" y="70" as="sourcePoint" />
+            <mxPoint x="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ywJJRI5t-XReXgleK-C4-21" value="传感器设备接入" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ywJJRI5t-XReXgleK-C4-40">
+          <mxGeometry y="70" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ywJJRI5t-XReXgleK-C4-22" value="MQTT协议接入" style="rounded=0;whiteSpace=wrap;html=1;textDirection=vertical-lr;" vertex="1" parent="ywJJRI5t-XReXgleK-C4-40">
+          <mxGeometry x="30" y="100" width="30" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ywJJRI5t-XReXgleK-C4-23" value="MQTT指令交互" style="rounded=0;whiteSpace=wrap;html=1;textDirection=vertical-lr;" vertex="1" parent="ywJJRI5t-XReXgleK-C4-40">
+          <mxGeometry x="60" y="100" width="30" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ywJJRI5t-XReXgleK-C4-24" value="新增设备" style="rounded=0;whiteSpace=wrap;html=1;textDirection=vertical-lr;" vertex="1" parent="ywJJRI5t-XReXgleK-C4-40">
+          <mxGeometry y="100" width="30" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ywJJRI5t-XReXgleK-C4-25" value="租户等信息关联" style="rounded=0;whiteSpace=wrap;html=1;textDirection=vertical-lr;" vertex="1" parent="ywJJRI5t-XReXgleK-C4-40">
+          <mxGeometry x="90" y="100" width="30" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ywJJRI5t-XReXgleK-C4-41" value="" style="group" vertex="1" connectable="0" parent="ywJJRI5t-XReXgleK-C4-43">
+          <mxGeometry x="525" width="90" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="ywJJRI5t-XReXgleK-C4-26" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="ywJJRI5t-XReXgleK-C4-41">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="44.5" y="70" as="sourcePoint" />
+            <mxPoint x="44.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ywJJRI5t-XReXgleK-C4-27" value="设备信息交互" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ywJJRI5t-XReXgleK-C4-41">
+          <mxGeometry y="70" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ywJJRI5t-XReXgleK-C4-28" value="设备在线状态维护" style="rounded=0;whiteSpace=wrap;html=1;textDirection=vertical-lr;" vertex="1" parent="ywJJRI5t-XReXgleK-C4-41">
+          <mxGeometry x="30" y="100" width="30" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ywJJRI5t-XReXgleK-C4-29" value="设备反向信息控制" style="rounded=0;whiteSpace=wrap;html=1;textDirection=vertical-lr;" vertex="1" parent="ywJJRI5t-XReXgleK-C4-41">
+          <mxGeometry x="60" y="100" width="30" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ywJJRI5t-XReXgleK-C4-30" value="时序上报数据" style="rounded=0;whiteSpace=wrap;html=1;textDirection=vertical-lr;" vertex="1" parent="ywJJRI5t-XReXgleK-C4-41">
+          <mxGeometry y="100" width="30" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ywJJRI5t-XReXgleK-C4-42" value="" style="group" vertex="1" connectable="0" parent="ywJJRI5t-XReXgleK-C4-43">
+          <mxGeometry x="680" width="120" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="ywJJRI5t-XReXgleK-C4-32" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="ywJJRI5t-XReXgleK-C4-42">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="60" y="70" as="sourcePoint" />
+            <mxPoint x="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ywJJRI5t-XReXgleK-C4-33" value="实时数据展示" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ywJJRI5t-XReXgleK-C4-42">
+          <mxGeometry y="70" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ywJJRI5t-XReXgleK-C4-34" value="设备状态实时展示" style="rounded=0;whiteSpace=wrap;html=1;textDirection=vertical-lr;" vertex="1" parent="ywJJRI5t-XReXgleK-C4-42">
+          <mxGeometry x="60" y="100" width="30" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ywJJRI5t-XReXgleK-C4-35" value="设备数据图形展示" style="rounded=0;whiteSpace=wrap;html=1;textDirection=vertical-lr;" vertex="1" parent="ywJJRI5t-XReXgleK-C4-42">
+          <mxGeometry x="90" y="100" width="30" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ywJJRI5t-XReXgleK-C4-36" value="视频设备在线预览" style="rounded=0;whiteSpace=wrap;html=1;textDirection=vertical-lr;" vertex="1" parent="ywJJRI5t-XReXgleK-C4-42">
+          <mxGeometry y="100" width="30" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ywJJRI5t-XReXgleK-C4-37" value="视频AI告警展示" style="rounded=0;whiteSpace=wrap;html=1;textDirection=vertical-lr;" vertex="1" parent="ywJJRI5t-XReXgleK-C4-42">
+          <mxGeometry x="30" y="100" width="30" height="110" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
