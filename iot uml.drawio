@@ -1,9 +1,128 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7">
   <diagram name="第 1 页" id="ztbPpMRjMUkY449TbFvW">
-    <mxGraphModel>
+    <mxGraphModel dx="2261" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="vjcirfqu7sG6HN5b0T6v-1" value="&lt;div style=&quot;background-color:#ffffff;color:#080808&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:11.3pt;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;AlarmRuleProvider&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="10" y="200" width="210" height="630" as="geometry" />
+        </mxCell>
+        <mxCell id="vjcirfqu7sG6HN5b0T6v-8" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="vjcirfqu7sG6HN5b0T6v-1">
+          <mxGeometry x="100" y="90" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vjcirfqu7sG6HN5b0T6v-30" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="vjcirfqu7sG6HN5b0T6v-1">
+          <mxGeometry x="100" y="300" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vjcirfqu7sG6HN5b0T6v-2" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="265" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vjcirfqu7sG6HN5b0T6v-9" value="dispatch" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="vjcirfqu7sG6HN5b0T6v-8" parent="1" source="vjcirfqu7sG6HN5b0T6v-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="295" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vjcirfqu7sG6HN5b0T6v-10" value="设置告警规则" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="295" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vjcirfqu7sG6HN5b0T6v-11" value="&lt;div style=&quot;background-color:#ffffff;color:#080808&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:11.3pt;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;AlarmController&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="390" y="200" width="155" height="630" as="geometry" />
+        </mxCell>
+        <mxCell id="vjcirfqu7sG6HN5b0T6v-3" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="vjcirfqu7sG6HN5b0T6v-11">
+          <mxGeometry x="73" y="180" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vjcirfqu7sG6HN5b0T6v-5" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="vjcirfqu7sG6HN5b0T6v-3" parent="vjcirfqu7sG6HN5b0T6v-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3" y="255" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vjcirfqu7sG6HN5b0T6v-6" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="vjcirfqu7sG6HN5b0T6v-11">
+          <mxGeometry x="73" y="180" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vjcirfqu7sG6HN5b0T6v-12" value="AI视频盒子、&lt;div&gt;IoT数据分析服务&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="347" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vjcirfqu7sG6HN5b0T6v-7" value="callback" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="vjcirfqu7sG6HN5b0T6v-6" parent="1" source="vjcirfqu7sG6HN5b0T6v-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="393" y="385" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vjcirfqu7sG6HN5b0T6v-13" value="产生告警级别的信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="345" y="347" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vjcirfqu7sG6HN5b0T6v-14" value="&lt;div style=&quot;background-color:#ffffff;color:#080808&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:11.3pt;&quot;&gt;RabbitTemplate&lt;/pre&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="690" y="200" width="130" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="vjcirfqu7sG6HN5b0T6v-18" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="vjcirfqu7sG6HN5b0T6v-14">
+          <mxGeometry x="60" y="190" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vjcirfqu7sG6HN5b0T6v-19" value="dispatch" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="vjcirfqu7sG6HN5b0T6v-18" parent="1" source="vjcirfqu7sG6HN5b0T6v-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="415" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vjcirfqu7sG6HN5b0T6v-20" value="发送到RabbitMQ指定的主题中" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="520" y="358" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vjcirfqu7sG6HN5b0T6v-21" value="&lt;div style=&quot;background-color:#ffffff;color:#080808&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:11.3pt;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;AlarmListener&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="910" y="200" width="120" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="vjcirfqu7sG6HN5b0T6v-22" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="vjcirfqu7sG6HN5b0T6v-21">
+          <mxGeometry x="55" y="210" width="10" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="vjcirfqu7sG6HN5b0T6v-27" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="vjcirfqu7sG6HN5b0T6v-21">
+          <mxGeometry x="60" y="280" width="10" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vjcirfqu7sG6HN5b0T6v-28" value="self call" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="vjcirfqu7sG6HN5b0T6v-27" parent="vjcirfqu7sG6HN5b0T6v-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="65" y="260" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="95" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vjcirfqu7sG6HN5b0T6v-23" value="callback" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=5;" edge="1" target="vjcirfqu7sG6HN5b0T6v-22" parent="1" source="vjcirfqu7sG6HN5b0T6v-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="965" y="410" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vjcirfqu7sG6HN5b0T6v-26" value="告警监听器被回调" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="810" y="408" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vjcirfqu7sG6HN5b0T6v-29" value="查询告警规则" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="990" y="475" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vjcirfqu7sG6HN5b0T6v-31" value="callback" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=5;" edge="1" target="vjcirfqu7sG6HN5b0T6v-30" parent="1" source="vjcirfqu7sG6HN5b0T6v-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="505" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vjcirfqu7sG6HN5b0T6v-32" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="vjcirfqu7sG6HN5b0T6v-30" parent="1" target="vjcirfqu7sG6HN5b0T6v-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="575" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vjcirfqu7sG6HN5b0T6v-33" value="查询规则中详细的通知人等" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="570" y="480" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vjcirfqu7sG6HN5b0T6v-34" value="&lt;div style=&quot;background-color:#ffffff;color:#080808&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:11.3pt;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;MessageProvider&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1120" y="200" width="140" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="vjcirfqu7sG6HN5b0T6v-35" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="vjcirfqu7sG6HN5b0T6v-34">
+          <mxGeometry x="65" y="380" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vjcirfqu7sG6HN5b0T6v-36" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="vjcirfqu7sG6HN5b0T6v-35" parent="1" source="vjcirfqu7sG6HN5b0T6v-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1115" y="585" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vjcirfqu7sG6HN5b0T6v-37" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="vjcirfqu7sG6HN5b0T6v-35" parent="1" target="vjcirfqu7sG6HN5b0T6v-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1115" y="655" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vjcirfqu7sG6HN5b0T6v-38" value="发送站内信等消息通知" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="548" width="140" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
