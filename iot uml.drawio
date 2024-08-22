@@ -90,7 +90,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vjcirfqu7sG6HN5b0T6v-33" value="查询规则中详细的通知人等" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1140" y="460" width="170" height="30" as="geometry" />
+          <mxGeometry x="1156" y="480" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vjcirfqu7sG6HN5b0T6v-34" value="&lt;div style=&quot;background-color:#ffffff;color:#080808&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:11.3pt;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;MessageProvider&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="1500" y="200" width="140" height="580" as="geometry" />
@@ -109,7 +109,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vjcirfqu7sG6HN5b0T6v-38" value="发送站内信等消息通知" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1300" y="530" width="140" height="30" as="geometry" />
+          <mxGeometry x="1350" y="555" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VUypHfWhMM7Zp2XZqRz_-1" value="&lt;div style=&quot;background-color:#ffffff;color:#080808&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:11.3pt;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;AlarmRuleProvider&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="10" y="870" width="210" height="630" as="geometry" />
