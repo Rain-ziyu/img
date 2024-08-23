@@ -1,9 +1,102 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7">
   <diagram name="第 1 页" id="NAEsRscx6vSHz3S3RPiy">
-    <mxGraphModel>
+    <mxGraphModel dx="1382" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="F1WXtg5m4FNgR1G5QYFV-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="420" as="sourcePoint" />
+            <mxPoint x="450" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="450" y="360" />
+              <mxPoint x="450" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F1WXtg5m4FNgR1G5QYFV-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F1WXtg5m4FNgR1G5QYFV-1" target="F1WXtg5m4FNgR1G5QYFV-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="430" />
+              <mxPoint x="560" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F1WXtg5m4FNgR1G5QYFV-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="470" as="sourcePoint" />
+            <mxPoint x="180" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F1WXtg5m4FNgR1G5QYFV-18" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.008;exitY=0.9;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="F1WXtg5m4FNgR1G5QYFV-1" target="F1WXtg5m4FNgR1G5QYFV-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F1WXtg5m4FNgR1G5QYFV-23" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.683;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="F1WXtg5m4FNgR1G5QYFV-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="470" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F1WXtg5m4FNgR1G5QYFV-1" value="组织服务中台" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F1WXtg5m4FNgR1G5QYFV-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F1WXtg5m4FNgR1G5QYFV-2" target="F1WXtg5m4FNgR1G5QYFV-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="370" y="340" />
+              <mxPoint x="370" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F1WXtg5m4FNgR1G5QYFV-2" value="工作台" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="240" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="F1WXtg5m4FNgR1G5QYFV-6" value="部门管理&lt;div&gt;人员管理&lt;/div&gt;&lt;div&gt;租户关联&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="375" y="320" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F1WXtg5m4FNgR1G5QYFV-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="470" as="sourcePoint" />
+            <mxPoint x="470" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F1WXtg5m4FNgR1G5QYFV-8" value="鑫智安" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F1WXtg5m4FNgR1G5QYFV-11" value="部门树查询&lt;div&gt;人员管理&lt;/div&gt;&lt;div&gt;岗位管理&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="420" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F1WXtg5m4FNgR1G5QYFV-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="430" as="sourcePoint" />
+            <mxPoint x="350" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F1WXtg5m4FNgR1G5QYFV-13" value="鑫管云" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F1WXtg5m4FNgR1G5QYFV-16" value="部门树查询&lt;div&gt;人员管理&lt;/div&gt;&lt;div&gt;岗位管理&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="210" y="420" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F1WXtg5m4FNgR1G5QYFV-17" value="CRM客户管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F1WXtg5m4FNgR1G5QYFV-19" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="F1WXtg5m4FNgR1G5QYFV-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="477" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F1WXtg5m4FNgR1G5QYFV-20" value="部门树查询&lt;div&gt;人员管理&lt;/div&gt;&lt;div&gt;岗位管理&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="520" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F1WXtg5m4FNgR1G5QYFV-22" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.683;entryY=0.933;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="F1WXtg5m4FNgR1G5QYFV-21" target="F1WXtg5m4FNgR1G5QYFV-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F1WXtg5m4FNgR1G5QYFV-21" value="安全专家在线" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F1WXtg5m4FNgR1G5QYFV-24" value="部门树查询&lt;div&gt;人员管理&lt;/div&gt;&lt;div&gt;岗位管理&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="480" y="520" width="80" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
