@@ -1,9 +1,141 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7">
   <diagram name="第 1 页" id="Y1Nb7VjFnf-pOPehtZFl">
-    <mxGraphModel>
+    <mxGraphModel dx="1382" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="_Sf2DdrofTjFM5yEQhGe-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="70" width="670" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="_Sf2DdrofTjFM5yEQhGe-2" value="组织服务中台" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="390" y="70" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_Sf2DdrofTjFM5yEQhGe-3" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="120" width="650" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_Sf2DdrofTjFM5yEQhGe-8" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="134" y="125" width="600" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_Sf2DdrofTjFM5yEQhGe-4" value="组织管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_Sf2DdrofTjFM5yEQhGe-8">
+          <mxGeometry width="122.03389830508473" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_Sf2DdrofTjFM5yEQhGe-5" value="人员管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_Sf2DdrofTjFM5yEQhGe-8">
+          <mxGeometry x="152.54237288135593" width="122.03389830508473" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_Sf2DdrofTjFM5yEQhGe-6" value="岗位管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_Sf2DdrofTjFM5yEQhGe-8">
+          <mxGeometry x="315.2542372881356" width="122.03389830508473" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_Sf2DdrofTjFM5yEQhGe-7" value="关联组织" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_Sf2DdrofTjFM5yEQhGe-8">
+          <mxGeometry x="477.9661016949152" width="122.03389830508473" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_Sf2DdrofTjFM5yEQhGe-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="134" y="190" width="122.033" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="_Sf2DdrofTjFM5yEQhGe-17" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="141.5" y="200" width="105.5" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="_Sf2DdrofTjFM5yEQhGe-10" value="添加部门" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_Sf2DdrofTjFM5yEQhGe-17">
+          <mxGeometry width="105" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_Sf2DdrofTjFM5yEQhGe-11" value="查询全量部门树" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_Sf2DdrofTjFM5yEQhGe-17">
+          <mxGeometry x="0.5" y="80" width="105" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_Sf2DdrofTjFM5yEQhGe-12" value="查询全量部门以及部门下人员树" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_Sf2DdrofTjFM5yEQhGe-17">
+          <mxGeometry x="0.5" y="155" width="105" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_Sf2DdrofTjFM5yEQhGe-13" value="查询指定应用下部门以及部门下人员树" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_Sf2DdrofTjFM5yEQhGe-17">
+          <mxGeometry x="0.5" y="220" width="105" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_Sf2DdrofTjFM5yEQhGe-14" value="条件模糊查询部门" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_Sf2DdrofTjFM5yEQhGe-17">
+          <mxGeometry x="0.5" y="290" width="105" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_Sf2DdrofTjFM5yEQhGe-15" value="更新部门信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_Sf2DdrofTjFM5yEQhGe-17">
+          <mxGeometry x="0.5" y="359.5" width="105" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_Sf2DdrofTjFM5yEQhGe-16" value="删除部门" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_Sf2DdrofTjFM5yEQhGe-17">
+          <mxGeometry y="420" width="105" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_Sf2DdrofTjFM5yEQhGe-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="284.97" y="190" width="122.033" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="_Sf2DdrofTjFM5yEQhGe-19" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="293" y="200" width="105.5" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="_Sf2DdrofTjFM5yEQhGe-20" value="添加人员" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_Sf2DdrofTjFM5yEQhGe-19">
+          <mxGeometry width="105" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_Sf2DdrofTjFM5yEQhGe-21" value="授权人员" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_Sf2DdrofTjFM5yEQhGe-19">
+          <mxGeometry x="0.5" y="80" width="105" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_Sf2DdrofTjFM5yEQhGe-22" value="取消人员授权" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_Sf2DdrofTjFM5yEQhGe-19">
+          <mxGeometry x="0.5" y="155" width="105" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_Sf2DdrofTjFM5yEQhGe-23" value="更新人员组织信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_Sf2DdrofTjFM5yEQhGe-19">
+          <mxGeometry x="0.5" y="220" width="105" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_Sf2DdrofTjFM5yEQhGe-24" value="初始化组织" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_Sf2DdrofTjFM5yEQhGe-19">
+          <mxGeometry x="0.5" y="290" width="105" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_Sf2DdrofTjFM5yEQhGe-25" value="查询人员列表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_Sf2DdrofTjFM5yEQhGe-19">
+          <mxGeometry x="0.5" y="359.5" width="105" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_Sf2DdrofTjFM5yEQhGe-26" value="查询部门下人员" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_Sf2DdrofTjFM5yEQhGe-19">
+          <mxGeometry y="420" width="105" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_Sf2DdrofTjFM5yEQhGe-27" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="190" width="122.033" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="_Sf2DdrofTjFM5yEQhGe-28" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="459" y="200" width="105.5" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="_Sf2DdrofTjFM5yEQhGe-29" value="创建岗位" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_Sf2DdrofTjFM5yEQhGe-28">
+          <mxGeometry width="105" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_Sf2DdrofTjFM5yEQhGe-30" value="更新岗位" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_Sf2DdrofTjFM5yEQhGe-28">
+          <mxGeometry x="0.5" y="80" width="105" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_Sf2DdrofTjFM5yEQhGe-31" value="删除岗位" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_Sf2DdrofTjFM5yEQhGe-28">
+          <mxGeometry x="0.5" y="155" width="105" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_Sf2DdrofTjFM5yEQhGe-32" value="查询岗位详细信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_Sf2DdrofTjFM5yEQhGe-28">
+          <mxGeometry x="0.5" y="220" width="105" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_Sf2DdrofTjFM5yEQhGe-33" value="分页查询岗位列表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_Sf2DdrofTjFM5yEQhGe-28">
+          <mxGeometry x="0.5" y="290" width="105" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_Sf2DdrofTjFM5yEQhGe-34" value="岗位下添加人员" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_Sf2DdrofTjFM5yEQhGe-28">
+          <mxGeometry x="0.5" y="359.5" width="105" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_Sf2DdrofTjFM5yEQhGe-35" value="取消关联" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_Sf2DdrofTjFM5yEQhGe-28">
+          <mxGeometry y="420" width="105" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_Sf2DdrofTjFM5yEQhGe-36" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="611.97" y="190" width="122.03" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="_Sf2DdrofTjFM5yEQhGe-37" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="620" y="200" width="105.5" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="_Sf2DdrofTjFM5yEQhGe-38" value="通过租户id查询租户关系数型结构" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_Sf2DdrofTjFM5yEQhGe-37">
+          <mxGeometry width="105" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_Sf2DdrofTjFM5yEQhGe-39" value="模糊查询列表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_Sf2DdrofTjFM5yEQhGe-37">
+          <mxGeometry x="0.5" y="80" width="105" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_Sf2DdrofTjFM5yEQhGe-40" value="创建上下级关系的绑定" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_Sf2DdrofTjFM5yEQhGe-37">
+          <mxGeometry x="0.5" y="155" width="105" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_Sf2DdrofTjFM5yEQhGe-41" value="删除租户绑定关系" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_Sf2DdrofTjFM5yEQhGe-37">
+          <mxGeometry x="0.5" y="220" width="105" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_Sf2DdrofTjFM5yEQhGe-42" value="查询一级下级租户" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_Sf2DdrofTjFM5yEQhGe-37">
+          <mxGeometry x="0.5" y="290" width="105" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_Sf2DdrofTjFM5yEQhGe-43" value="查询所有下级" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_Sf2DdrofTjFM5yEQhGe-37">
+          <mxGeometry x="0.5" y="359.5" width="105" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_Sf2DdrofTjFM5yEQhGe-44" value="查询父级租户" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_Sf2DdrofTjFM5yEQhGe-37">
+          <mxGeometry y="420" width="105" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
